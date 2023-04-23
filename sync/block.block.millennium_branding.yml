@@ -1,0 +1,25 @@
+uuid: 964a0b28-72d7-48da-b1ee-e97b458b7f9d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - millennium
+_core:
+  default_config_hash: hcX_Wn3XYQ6_4U-N2Thv5tjQWV3H7aG4CSTBfyO9QhU
+id: millennium_branding
+theme: millennium
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

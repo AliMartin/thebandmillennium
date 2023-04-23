@@ -1,0 +1,20 @@
+uuid: 66d91061-7eb9-47f5-af43-0b5b6a24314a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - millennium
+_core:
+  default_config_hash: WBaZlkONFQfGsRo103g04IadAZl_pGTkqjktar1WDDQ
+id: millennium_page_title
+theme: millennium
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

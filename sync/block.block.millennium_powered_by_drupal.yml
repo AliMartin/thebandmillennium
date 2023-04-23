@@ -1,0 +1,22 @@
+uuid: da619cf4-b6b4-46aa-88a7-ae872cef0580
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - millennium
+_core:
+  default_config_hash: yE1Th0j4ywgnPvUyLt3DZ5tyHhEp9Lj0sVaJmmLN894
+id: millennium_powered_by_drupal
+theme: millennium
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

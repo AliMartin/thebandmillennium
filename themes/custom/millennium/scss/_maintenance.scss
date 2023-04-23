@@ -1,0 +1,38 @@
+.maintenance-page {
+  header {
+    background: inherit;
+    border-bottom: inherit;
+
+    a.site-logo {
+      img {
+        width: 200px;
+        height: auto;
+        margin-bottom: 1rem;
+      }
+    }
+
+    .name-and-slogan {
+      text-align: center;
+      text-transform: uppercase;
+
+      .site-name {
+        font-size: 48px;
+        line-height: 48px;
+        font-weight: $font-weight-normal;
+        letter-spacing: 1px;
+        margin-bottom: 1rem;      
+      }
+
+      .site-slogan {
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 600;
+        letter-spacing: 4px;      
+      }
+    }
+  }
+
+  main[role=main] {
+    text-align: center;
+  }
+}

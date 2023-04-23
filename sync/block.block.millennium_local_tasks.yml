@@ -1,0 +1,22 @@
+uuid: a30fba7c-1d89-403d-a7a7-9f568a86a247
+langcode: en
+status: true
+dependencies:
+  theme:
+    - millennium
+_core:
+  default_config_hash: L0g3FNsAMMSrVBM2S5zbI3CZfxL2vTHi1empSoR_G-c
+id: millennium_local_tasks
+theme: millennium
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

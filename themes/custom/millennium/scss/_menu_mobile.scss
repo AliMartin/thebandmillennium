@@ -1,0 +1,53 @@
+.mm-page,
+.mm-wrapper_background body {
+  background-color: inherit;
+}
+
+
+.responsive-menu-toggle-icon,
+.responsive-menu-toggle-icon:visited {
+	float: right;
+	width: 40px;
+	height: 40px;
+	border: 1px solid $white;
+  border-radius: 40px;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+}
+
+.responsive-menu-toggle-icon:focus,
+.responsive-menu-toggle-icon:hover,
+.responsive-menu-toggle-icon:active {
+	border: 1px solid $yellow;
+}
+
+.responsive-menu-toggle-icon:before,
+.responsive-menu-toggle-icon:after,
+.responsive-menu-toggle-icon span.icon {
+	background: $white;
+	height: 1px;
+	left: 9px;
+}
+
+.responsive-menu-toggle-icon:hover:before,
+.responsive-menu-toggle-icon:hover:after,
+.responsive-menu-toggle-icon:hover span.icon {
+	background: $yellow;
+}
+
+.responsive-menu-toggle-icon:before 		{top: 12px;}
+.responsive-menu-toggle-icon:after 			{top: 24px;}
+.responsive-menu-toggle-icon span.icon	{top: 18px;}
+
+.mm-wrapper_opening .responsive-menu-toggle-icon:before,
+.mm-wrapper_opening .responsive-menu-toggle-icon:after {
+  top: 18px;
+}
+
+#block-responsivemenumobileicon .label {
+	display: none;
+}
+
+.mm-listitem a:hover {
+  color: $yellow;
+}

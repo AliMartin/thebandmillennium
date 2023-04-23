@@ -1,0 +1,20 @@
+uuid: 2adaa764-bbb3-46a0-a665-4443b871c536
+langcode: en
+status: true
+dependencies:
+  theme:
+    - millennium
+_core:
+  default_config_hash: kn3P8EOtge8NcwjUYGbPRL0ZxCcoaDL3EBrc-hUhIz8
+id: millennium_local_actions
+theme: millennium
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

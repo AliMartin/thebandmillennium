@@ -1,0 +1,15 @@
+uuid: 2192f2c3-779b-489b-8f7a-8ace5dae38a3
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+id: text
+label: Text
+icon_uuid: null
+icon_default: null
+description: 'Add some <em>text</em> to the page.'
+behavior_plugins: {  }

@@ -1,0 +1,25 @@
+uuid: b5e0185c-facb-49cb-8b1f-9304997bee90
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:cd72d846-f76a-4d31-b88b-e77fe0ce6d4c'
+  module:
+    - block_content
+  theme:
+    - millennium
+id: callstoaction
+theme: millennium
+region: nav_main
+weight: 0
+provider: null
+plugin: 'block_content:cd72d846-f76a-4d31-b88b-e77fe0ce6d4c'
+settings:
+  id: 'block_content:cd72d846-f76a-4d31-b88b-e77fe0ce6d4c'
+  label: 'Calls to action'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

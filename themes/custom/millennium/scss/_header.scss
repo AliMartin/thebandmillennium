@@ -1,0 +1,89 @@
+header {
+  background-color: $black;
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(28,27,26,1) 40%, rgba(28,27,26,1) 60%, rgba(0,0,0,1) 100%);
+  color: $white;
+  border-bottom: 1px solid $gray-800;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  .header-wrapper {
+    .row {
+      display: flex;
+      align-items: center;
+    }
+
+    .right-column {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+
+
+}
+
+@media (min-width: 992px) {
+  .navbar-brand img {
+    height: 90px;
+  }
+}
+
+
+#block-callstoaction {
+  padding-bottom: 1rem;
+
+  .field--name-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    a {
+      display: block;
+      font-size: small;
+      text-align: center;
+      text-decoration: none;
+      color: $white;
+      margin: 0 10px;
+      padding: 5px 10px;
+      width: 130px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border: 1px solid $white;
+      border-radius: 20px;
+
+      &:hover,
+      &:focus {
+        border: 1px solid $yellow;
+        color: $yellow; 
+      }
+    }
+  }
+}
+
+
+#band-name-and-slogan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase;
+
+  .band-name {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    line-height: 36px;
+    font-weight: $font-weight-normal;
+    letter-spacing: 1px;
+    margin-bottom: 0.25rem;
+  }
+
+  .slogan {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+    letter-spacing: 5px;
+  }
+}
+

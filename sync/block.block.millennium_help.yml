@@ -1,0 +1,22 @@
+uuid: 4d792ce7-5e61-4c95-88dd-07466c7734a2
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - millennium
+_core:
+  default_config_hash: BO6qOvb20i1EzCVxHgn9hYsWqOJsfqYxNHTufGQZ1zo
+id: millennium_help
+theme: millennium
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

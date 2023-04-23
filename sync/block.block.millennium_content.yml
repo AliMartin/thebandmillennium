@@ -1,0 +1,22 @@
+uuid: 0c6a7bc2-1e74-4777-a6ac-1dc40e9f53e1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - millennium
+_core:
+  default_config_hash: IgX73hr9t031iIkoMped329GOrXMAO4rUCggqcizkYE
+id: millennium_content
+theme: millennium
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
