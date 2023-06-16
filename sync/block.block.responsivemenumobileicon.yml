@@ -9,7 +9,7 @@ dependencies:
 id: responsivemenumobileicon
 theme: millennium
 region: nav_additional
-weight: 0
+weight: -4
 provider: null
 plugin: responsive_menu_toggle
 settings:

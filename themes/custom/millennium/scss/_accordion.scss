@@ -1,0 +1,33 @@
+.ui-accordion {
+  .ui-accordion-header {
+    margin: 10px 0 0 0;
+  }
+
+  .ui-widget-content {
+    font-family: $font-family-sans-serif;
+    font-weight: $font-weight-normal;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+    border: 1px solid $yellow;
+    background-color: rgba(0,0,0,0.3);
+    color: $white;
+  }
+}
+
+.ui-state-active .ui-icon,
+.ui-button:active .ui-icon {
+  background-image: url("../../../../modules/contrib/jquery_ui/assets/vendor/jquery.ui/themes/base/images/ui-icons_444444_256x240.png");
+}
+
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+  border: 1px solid $yellow;
+  background: $yellow;
+  color: $black;
+  }
+  

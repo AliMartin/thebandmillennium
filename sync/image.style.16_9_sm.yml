@@ -1,0 +1,17 @@
+uuid: 2047dcad-3191-4a85-b0bc-b995da3c6840
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: 16_9_sm
+label: '16:9 SM'
+effects:
+  108f6d67-1169-4f36-bd0f-9089aa80bfa3:
+    uuid: 108f6d67-1169-4f36-bd0f-9089aa80bfa3
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 320
+      height: 170
+      crop_type: focal_point

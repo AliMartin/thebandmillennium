@@ -1,0 +1,15 @@
+.view-gallery-page,
+.view-audio-page {
+    .view-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+
+    .field__item {
+      img {
+        border-radius: $border-radius;
+      }
+    }
+  }
+}

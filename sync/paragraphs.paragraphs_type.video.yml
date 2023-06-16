@@ -1,0 +1,15 @@
+uuid: f893b9c2-46f3-47a3-a8e2-9acb75e8d15e
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+id: video
+label: Video
+icon_uuid: null
+icon_default: null
+description: 'Add a <em>video</em> from YouTube or Vimeo.'
+behavior_plugins: {  }

@@ -2,13 +2,13 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
 uuid: b3f6af1e-0bc0-4e0f-a4f9-ed37d5f1b703
-name: 'Millennium Party Band'
+name: Millennium
 mail: noreply@thebandmillennium.co.uk
 slogan: 'The ultimate party band'
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/6
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

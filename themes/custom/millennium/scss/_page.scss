@@ -1,11 +1,18 @@
 body {
   background-color: $gray-900;
+  background-color: inherit;
+  background-image: url('../images/wallpaper-03.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
   color: $white;
 }
 
 main[role=main] {
   padding-top: 3rem;
   padding-bottom: 9rem;
+  text-align: center;
 }
 
 .h6, h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1,
@@ -13,4 +20,88 @@ main[role=main] {
 .form-wrapper.accordion .accordion-item .h2 {
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+.fontawesome-icon i {
+--fa-primary-color: #ffc107 !important;
+--fa-secondary-color: #fff !important;
+}
+
+.narrow-container {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-node-type-page,
+.page-node-type-landing-page,
+.page-node-type-webform {
+
+  main[role="main"] {
+    padding-top: 0;
+
+    .field--name-body {
+      margin-bottom: 4rem;
+    }
+    
+  }
+
+  #block-millennium-page-title {
+    display: none;
+  }
+
+  .field--name-field-media-image {
+    margin-bottom: 2rem;
+    img {
+      width: 100%;
+      border-radius: $border-radius;
+    }
+  }
+
+  h1, h2, h3 {
+    text-align: center;
+  }
+}
+
+
+
+.field--name-field-paragraph {
+  > .field__item {
+    margin-bottom: 4rem;
+  }
+}
+
+
+// About Millennium paragraph
+.paragraph--class--about-millennium {
+  text-align: center;
+}
+
+
+// Millennium in Brief paragraph
+.paragraph--class--millennium-in-brief {
+  background-color: $white;
+  opacity: 1;
+  color: $black;
+  padding: 20px;
+  border-radius: 20px;
+
+  .field--name-field-text {
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      text-align: center;
+      i {
+        color: $yellow;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+
+// Millennium set list paragraph
+.paragraph--class--millennium-set-list {
+  text-align: center;
 }

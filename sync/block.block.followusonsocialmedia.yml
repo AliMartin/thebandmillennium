@@ -1,0 +1,25 @@
+uuid: 116aa4ef-82e6-4e98-9ebe-5b4610c7137f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3aeb057b-7f5c-49a3-a69a-39a0210488df'
+  module:
+    - block_content
+  theme:
+    - millennium
+id: followusonsocialmedia
+theme: millennium
+region: footer
+weight: -6
+provider: null
+plugin: 'block_content:3aeb057b-7f5c-49a3-a69a-39a0210488df'
+settings:
+  id: 'block_content:3aeb057b-7f5c-49a3-a69a-39a0210488df'
+  label: 'Follow us on social media'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

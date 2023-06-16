@@ -1,0 +1,11 @@
+uuid: 9972ca57-7e32-4f06-9986-80b31ef24f28
+langcode: en
+status: true
+dependencies:
+  module:
+    - backup_migrate_backbeaver
+id: backbeaver
+label: BackBeaver
+type: backbeaver
+config:
+  backbeaver_site_api_key: c4095f6c0d19d33bc20b13cfd14463cd453b404f

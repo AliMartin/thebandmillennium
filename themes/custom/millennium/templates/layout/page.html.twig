@@ -60,19 +60,23 @@ set footer_classes = ' ' ~
   {{ page.header }}
 
   <div class="container header-wrapper">
-    <div class="row">
-      <div class="col-md-3 left-column">
+
+    <div class="row top">
+      <div class="col-sm-7 col-md-8 left-column">
         <div>{{ page.nav_branding }}</div>
       </div>
 
-      <div class="col-md-6 middle-column">
-        <div>{{ page.nav_main }}</div>
-      </div>
-
-      <div class="col-md-3 right-column">
+      <div class="col-sm-5 col-md-4 right-column">
         <div>{{ page.nav_additional }}</div>
       </div>
     </div>
+
+    <div class="row bottom">
+      <div class="col-12">
+        <div>{{ page.nav_main }}</div>
+      </div>
+    </div>
+
   </div>
 
 </header>

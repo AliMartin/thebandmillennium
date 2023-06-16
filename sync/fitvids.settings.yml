@@ -1,0 +1,5 @@
+_core:
+  default_config_hash: 2VIFfYIzLIphEpkJSH9KfhEE0P66ieHfusDj6QMJIzY
+selectors: .node
+custom_vendors: "https://youtu.be\r\n/media/oembed?url=https://youtu.be\r\n/media/oembed?url=https%3A//youtu.be\r\n/media/oembed?url=https://youtube.com\r\n/media/oembed?url=https%3A//youtube.com"
+ignore_selectors: ''

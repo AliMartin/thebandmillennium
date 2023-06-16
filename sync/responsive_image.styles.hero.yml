@@ -1,0 +1,35 @@
+uuid: 0a63e44d-f627-4adf-8dfe-a3e2aa0881cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.16_9_md
+    - image.style.16_9_sm
+    - image.style.16_9_xl
+  theme:
+    - millennium
+id: hero
+label: Hero
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: 16_9_xl
+    breakpoint_id: millennium.screen.lg-min
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: 16_9_xl
+    breakpoint_id: millennium.screen.md-min
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: 16_9_md
+    breakpoint_id: millennium.screen.sm-min
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: 16_9_sm
+    breakpoint_id: millennium.screen.xs-max
+    multiplier: 1x
+breakpoint_group: millennium.screen
+fallback_image_style: 16_9_xl

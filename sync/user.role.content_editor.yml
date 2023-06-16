@@ -3,18 +3,19 @@ langcode: en
 status: true
 dependencies:
   config:
-    - node.type.article
-    - node.type.page
+    - node.type.landing_page
     - taxonomy.vocabulary.tags
   module:
     - contextual
     - file
     - node
+    - paragraphs_library
     - path
     - system
     - taxonomy
     - toolbar
     - tour
+    - webform
 _core:
   default_config_hash: Wur9kcEOwY1Jal81NssKnz3RhVJxAvBwyWQBGcA_1Go
 id: content_editor
@@ -28,19 +29,22 @@ permissions:
   - 'access files overview'
   - 'access toolbar'
   - 'access tour'
+  - 'administer paragraphs library'
   - 'administer url aliases'
-  - 'create article content'
-  - 'create page content'
+  - 'create landing_page content'
+  - 'create paragraph library item'
   - 'create terms in tags'
   - 'create url aliases'
-  - 'delete article revisions'
-  - 'delete own article content'
-  - 'delete own page content'
-  - 'delete page revisions'
-  - 'edit own article content'
-  - 'edit own page content'
+  - 'delete landing_page revisions'
+  - 'delete own landing_page content'
+  - 'edit any landing_page content'
+  - 'edit own landing_page content'
+  - 'edit paragraph library item'
   - 'edit terms in tags'
   - 'revert all revisions'
+  - 'revert landing_page revisions'
   - 'view all revisions'
+  - 'view any webform submission'
+  - 'view landing_page revisions'
   - 'view own unpublished content'
   - 'view the administration theme'

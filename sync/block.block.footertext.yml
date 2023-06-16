@@ -1,0 +1,25 @@
+uuid: d1d657ce-0f0c-46a4-8544-6990dae3caf0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:bc90489a-0ce1-4670-ac26-35881b08953d'
+  module:
+    - block_content
+  theme:
+    - millennium
+id: footertext
+theme: millennium
+region: footer
+weight: -5
+provider: null
+plugin: 'block_content:bc90489a-0ce1-4670-ac26-35881b08953d'
+settings:
+  id: 'block_content:bc90489a-0ce1-4670-ac26-35881b08953d'
+  label: 'Footer text'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

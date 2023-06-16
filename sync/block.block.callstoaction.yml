@@ -10,8 +10,8 @@ dependencies:
     - millennium
 id: callstoaction
 theme: millennium
-region: nav_main
-weight: 0
+region: nav_additional
+weight: -5
 provider: null
 plugin: 'block_content:cd72d846-f76a-4d31-b88b-e77fe0ce6d4c'
 settings:

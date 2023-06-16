@@ -4,7 +4,7 @@ header {
   color: $white;
   border-bottom: 1px solid $gray-800;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 
   .header-wrapper {
     .row {
@@ -17,39 +17,75 @@ header {
       justify-content: flex-end;
       align-items: center;
     }
-  }
 
-
-}
-
-@media (min-width: 992px) {
-  .navbar-brand img {
-    height: 90px;
+    .region-nav-additional {
+      display: flex;
+      align-items: center;
+    }
   }
 }
 
+#block-millennium-branding {
+  text-transform: uppercase;
+
+  a.site-logo {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    margin-right: 20px;
+    padding: 10px;
+    border: 2px solid $white;
+    border-radius: 5px;
+
+    img {
+      margin: 0;
+    }
+  }
+  
+  .navbar-brand a.site-title {
+    color: $white;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: $font-weight-normal;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+  .navbar-brand .site-slogan {
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+}
 
 #block-callstoaction {
-  padding-bottom: 1rem;
-
   .field--name-body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-size: smaller;
+    gap: 20px;
 
     a {
-      display: block;
-      font-size: small;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       text-align: center;
       text-decoration: none;
       color: $white;
-      margin: 0 10px;
       padding: 5px 10px;
-      width: 130px;
+      width: 150px;
+      height: 40px;
       text-transform: uppercase;
       letter-spacing: 1px;
       border: 1px solid $white;
-      border-radius: 20px;
+      border-radius: 25px;
+
+      i {
+        margin-right: 10px;
+      }
 
       &:hover,
       &:focus {
@@ -61,29 +97,58 @@ header {
 }
 
 
-#band-name-and-slogan {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-transform: uppercase;
-
-  .band-name {
-    display: flex;
-    justify-content: center;
-    font-size: 48px;
-    line-height: 36px;
-    font-weight: $font-weight-normal;
-    letter-spacing: 1px;
-    margin-bottom: 0.25rem;
+@media screen and (max-width: 991px) {
+  header {
+    padding-bottom: 2rem;
   }
 
-  .slogan {
-    display: flex;
-    justify-content: center;
-    font-size: 12px;
-    line-height: 12px;
-    font-weight: 600;
-    letter-spacing: 5px;
+  ul.navbar-nav {
+    display: none;
+  }
+
+  #block-millennium-branding {
+    a.site-logo {
+      border: 1px solid $white;
+    }
+  }
+
+  #block-callstoaction {
+    .field--name-body a {
+      width: 40px;
+
+      i {
+        margin-right: 0;
+      }
+    }
+
+    span {
+      display: none;
+    }
   }
 }
 
+
+@media screen and (max-width: 767px) {
+  #block-millennium-branding {
+    .navbar-brand a.site-title {
+      font-size: 36px;
+      line-height: 36px;
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .header-wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  #block-millennium-branding {
+    .navbar-brand a.site-title {
+      display: none;
+    }
+  }
+  .header-wrapper .row > div {
+    width: 50%;
+  }
+}

@@ -1,0 +1,38 @@
+uuid: 9a596269-83a8-4914-b95f-f4a784513979
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:22611cd4-3ab0-4652-b2d3-16d97fd32414'
+  module:
+    - block_content
+    - node
+    - system
+  theme:
+    - millennium
+id: instagramfeed
+theme: millennium
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:22611cd4-3ab0-4652-b2d3-16d97fd32414'
+settings:
+  id: 'block_content:22611cd4-3ab0-4652-b2d3-16d97fd32414'
+  label: 'Follow Millennium on Instagram'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/user/*\r\n/contact\r\n/faq\r\n/media\r\n/video\r\n/audio\r\n/gallery"
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      landing_page: landing_page

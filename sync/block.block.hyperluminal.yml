@@ -1,0 +1,25 @@
+uuid: fa42100c-97d1-45fb-bf7b-949e5792d644
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1d9dae36-6d1a-4492-bace-8dc8db8a12fe'
+  module:
+    - block_content
+  theme:
+    - millennium
+id: hyperluminal
+theme: millennium
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:1d9dae36-6d1a-4492-bace-8dc8db8a12fe'
+settings:
+  id: 'block_content:1d9dae36-6d1a-4492-bace-8dc8db8a12fe'
+  label: Hyperluminal
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

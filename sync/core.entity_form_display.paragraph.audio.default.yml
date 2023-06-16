@@ -1,0 +1,33 @@
+uuid: 71e8efcf-171d-49c9-88f3-94a25f71a2a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.audio.field_audio
+    - field.field.paragraph.audio.field_title
+    - paragraphs.paragraphs_type.audio
+  module:
+    - media_library
+id: paragraph.audio.default
+targetEntityType: paragraph
+bundle: audio
+mode: default
+content:
+  field_audio:
+    type: media_library_widget
+    weight: 1
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
