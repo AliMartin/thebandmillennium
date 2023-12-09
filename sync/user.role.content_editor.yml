@@ -3,11 +3,15 @@ langcode: en
 status: true
 dependencies:
   config:
+    - media.type.image
+    - media.type.remote_video
+    - media.type.soundcloud
     - node.type.landing_page
     - taxonomy.vocabulary.tags
   module:
     - contextual
     - file
+    - media
     - node
     - paragraphs_library
     - path
@@ -31,18 +35,39 @@ permissions:
   - 'access tour'
   - 'administer paragraphs library'
   - 'administer url aliases'
+  - 'create image media'
   - 'create landing_page content'
+  - 'create media'
   - 'create paragraph library item'
+  - 'create remote_video media'
+  - 'create soundcloud media'
   - 'create terms in tags'
   - 'create url aliases'
+  - 'delete any image media'
+  - 'delete any media'
+  - 'delete any remote_video media'
+  - 'delete any soundcloud media'
   - 'delete landing_page revisions'
+  - 'delete media'
+  - 'delete own files'
+  - 'delete own image media'
   - 'delete own landing_page content'
+  - 'delete own remote_video media'
+  - 'delete own soundcloud media'
+  - 'edit any image media'
   - 'edit any landing_page content'
+  - 'edit any remote_video media'
+  - 'edit any soundcloud media'
+  - 'edit own image media'
   - 'edit own landing_page content'
+  - 'edit own remote_video media'
+  - 'edit own soundcloud media'
   - 'edit paragraph library item'
   - 'edit terms in tags'
   - 'revert all revisions'
   - 'revert landing_page revisions'
+  - 'update any media'
+  - 'update media'
   - 'view all revisions'
   - 'view any webform submission'
   - 'view landing_page revisions'
